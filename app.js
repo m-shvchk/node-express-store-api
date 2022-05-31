@@ -1,5 +1,6 @@
 require("dotenv").config();
-// async errors
+require("express-async-errors") 
+// package that helps with error handling (alternative to custom async-wrapper for try-catch)
 
 const express = require("express");
 const app = express();
